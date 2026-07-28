@@ -1,8 +1,8 @@
 import requests
 from .utils import username_to_id
 
-def get_user_info(username):
-    user_id = username_to_id(username)
+def get_user_info(tylerdurdenfan77):
+    user_id = username_to_id(tylerdurdenfan77)
     if not user_id:
         return None
 
